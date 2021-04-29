@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Levels">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="100"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6.25"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/niveles_textView_puntaje"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5"
+                android:background="#72FFFFFF"
+                android:gravity="right|center_vertical"
+                android:maxLines="1"
+                android:text="@string/score"
+                android:textColor="#100000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5"
+                android:background="#72FFFFFF"
+                android:drawableLeft="@drawable/star_25_25"
+                android:gravity="center_vertical"
+                android:drawableStart="@drawable/star_25_25" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="15"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/niveles_imageView_1_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#000000"
+                android:contentDescription="@string/content"
+                app:srcCompat="@drawable/n_cero" />
+
+            <ImageView
+                android:id="@+id/niveles_imageView_1_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#000000"
+                android:contentDescription="@string/content"
+                app:srcCompat="@drawable/n_cero" />
+
+            <ImageView
+                android:id="@+id/niveles_imageView_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#000000"
+                android:contentDescription="@string/content"
+                app:srcCompat="@drawable/n_cero" />
+
+            <ImageView
+                android:id="@+id/niveles_imageView_signo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#000000"
+                android:contentDescription="@string/content"
+                android:paddingTop="13dp"
+                app:srcCompat="@drawable/n_mas" />
+
+            <ImageView
+                android:id="@+id/niveles_imageView_2_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#000000"
+                android:contentDescription="@string/content"
+                app:srcCompat="@drawable/n_cero" />
+
+            <ImageView
+                android:id="@+id/niveles_imageView_2_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#000000"
+                android:contentDescription="@string/content"
+                app:srcCompat="@drawable/n_cero" />
+
+            <ImageView
+                android:id="@+id/niveles_imageView_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#000000"
+                android:contentDescription="@string/content"
+                app:srcCompat="@drawable/n_cero" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <Switch
+                android:id="@+id/niveles_switch_lapiz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:onClick="borrar"
+                android:text="@string/btn_borrar"
+                android:visibility="visible" />
+
+            <Switch
+                android:id="@+id/niveles_switch_pizarron"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:onClick="board"
+                android:text="@string/btn_pizarron" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="60.25"
+            android:orientation="horizontal">
+
+            <com.example.math.Board
+                android:id="@+id/niveles_pizarra_pizarron"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/pizarra_horizontal"
+                android:visibility="visible"
+                app:srcCompat="@drawable/pizarra_horizontal" />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/niveles_textView_resultado"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6.25"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/resultado"
+            android:inputType="number"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/niveles_button_verificar"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6.25"
+            android:onClick="Verificar"
+            android:text="@string/verificar"
+            android:textSize="24sp" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

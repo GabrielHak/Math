@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Math</string>
+
+    //Load
+    <string name="txt_de">by</string>
+    <string name="txt_gabi">Gabs</string>
+
+    //Activity Main
+    <string name="txt_nombre">Escribe tu nombre</string>
+    <string name="bt_jugar">Jugar</string>
+    <string name="content">Info</string>
+    <string name="b_score">Mejor puntaje</string>
+
+    //overflow
+    <string name="config">Configuración</string>
+    <string name="incio">Inicio</string>
+
+    //configuracion_apariencia
+    <string name="cambiaremoji">Cambiar emoji</string>
+
+    //seleccion
+    <string name="teoria">Teoria</string>
+    <string name="ej1">Nivel 1</string>
+    <string name="ej2">Nivel 2</string>
+    <string name="ej3">Nivel 3</string>
+    <string name="ej4">Nivel 4</string>
+    <string name="ej5">Nivel 5</string>
+    <string name="ej6">Nivel 6</string>
+    <string name="ej7">Nivel 7</string>
+    <string name="ej8">Nivel 8</string>
+    <string name="ej9">Nivel 9</string>
+    <string name="ej10">Nivel 10</string>
+    <string name="ejercicios">Ejercicios</string>
+
+    //niveles
+    <string name="resultado">Resultado</string>
+    <string name="verificar">Verificar</string>
+    <string name="score">Estrellitas: 0x</string>
+    <string name="btn_pizarron">Pizarra</string>
+    <string name="btn_borrar">Lapiz</string>
+
+    //configuracion
+    <string name="config_apariencia">Apariencia de la App</string>
+    <string name="config_sonido">Sonido de la app</string>
+    <string name="config_developer">Developer Config</string>
+    <string name="config_none">None</string>
+
+    //configuracion developer
+    <string name="db">Limpiar puntajes</string>
+    <string name="pre">Limpiar fotos</string>
+
+    //context menu
+    <string name="take">Tomar foto</string>
+    <string name="select">Usar esta foto</string>
+    <string name="btn_1">btn_1</string>
+    <string name="btn_2">btn_2</string>
+
+
+    <string name="points">puntos</string>
+    <string name="pulsado">Manten pulsado</string>
+    <string name="permisos">Se necesitan permisos</string>
+    <string name="estrellas">"Estrellitas : "</string>
+    <string name="lapiz">Lapiz</string>
+    <string name="goma">Goma</string>
+    <string name="bien">Bien hecho !!!</string>
+    <string name="mal">Intenta de nuevo</string>
+    <string name="estrellitas">Estrellitas</string>
+    <string name="n_teoria">Muy pronto la teoria</string>
+    <string name="consigue">Consigue</string>
+    <string name="cambiarfondo">Cambiar fondo</string>
+    <string name="btn_3">btn_3</string>
+
+</resources>

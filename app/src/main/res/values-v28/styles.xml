@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- TEMA PRINCIPAL ________________________________________________________________________ -->
+    <style name="ThemeMath" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="android:windowBackground">@drawable/bg_6</item>
+        <item name="android:buttonStyle">@style/button</item>
+        <item name="editTextStyle">@style/editTextM</item>
+        <item name="android:switchStyle">@style/sw</item>
+    </style>
+
+    <style name="button"  parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/btn_bg_m</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="sw" parent="@style/Widget.AppCompat.CompoundButton.Switch">
+        <item name="android:background">@drawable/btn_bg_m</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:layoutDirection">ltr</item>
+        <item name="android:textOff"> </item>
+        <item name="android:textOn"> </item>
+        <item name="android:thumb">@drawable/star_25_25</item>
+        <item name="android:track">@drawable/btn_sw_track_selector</item>
+    </style>
+
+    <style name="editTextM" parent="@android:style/Widget.EditText">
+        <item name="android:textColor">@color/text</item>
+        <item name="android:background">@drawable/btn_bg_m</item>
+        <item name="android:focusableInTouchMode">true</item>
+    </style>
+    <!-- _______________________________________________________________________________________ -->
+
+    <!-- Blue Theme ____________________________________________________________________________ -->
+    <style name="ThemeBlue" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/primaryBlue</item>
+        <item name="colorPrimaryDark">@color/primaryDarkBlue</item>
+        <item name="colorAccent">@color/accentBlue  </item>
+        <item name="android:windowBackground">@drawable/bg_5</item>
+        <item name="android:buttonStyle">@style/button_b</item>
+        <item name="android:switchStyle">@style/sw_b</item>
+        <item name="editTextStyle">@style/editTextB</item>
+    </style>
+
+    <style name="button_b"  parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/btn_bg_b</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="sw_b" parent="@style/Widget.AppCompat.CompoundButton.Switch">
+        <item name="android:background">@drawable/btn_bg_b</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layoutDirection">ltr</item>
+        <item name="android:textOff"> </item>
+        <item name="android:textOn"> </item>
+        <item name="android:thumb">@drawable/star_25_25</item>
+        <item name="android:track">@drawable/btn_sw_track_selector</item>
+    </style>
+
+    <style name="editTextB" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textColorHint">#92A4E3</item>
+        <item name="android:background">@drawable/btn_bg_b</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+    <!-- _______________________________________________________________________________________ -->
+
+    <!-- Brown Theme ____________________________________________________________________________ -->
+    <style name="ThemeBrown" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/primaryBrown</item>
+        <item name="colorPrimaryDark">@color/primaryDarkBrown</item>
+        <item name="colorAccent">@color/accentBrown</item>
+        <item name="android:windowBackground">@drawable/bg_4</item>
+        <item name="android:buttonStyle">@style/button_brown</item>
+        <item name="android:switchStyle">@style/sw_brown</item>
+        <item name="editTextStyle">@style/editTextBrown</item>
+    </style>
+
+    <style name="button_brown"  parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/btn_bg_brown</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="sw_brown" parent="@style/Widget.AppCompat.CompoundButton.Switch">
+        <item name="android:background">@drawable/btn_bg_brown</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layoutDirection">ltr</item>
+        <item name="android:textOff"> </item>
+        <item name="android:textOn"> </item>
+        <item name="android:thumb">@drawable/star_25_25</item>
+        <item name="android:track">@drawable/btn_sw_track_selector</item>
+    </style>
+
+    <style name="editTextBrown" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textColorHint">@color/white</item>
+        <item name="android:background">@drawable/btn_bg_brown</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+    <!-- _______________________________________________________________________________________ -->
+
+
+    <!-- Red Theme ____________________________________________________________________________ -->
+    <style name="ThemeRed" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/primaryRed</item>
+        <item name="colorPrimaryDark">@color/primaryDarkRed</item>
+        <item name="colorAccent">@color/accentRed</item>
+        <item name="android:windowBackground">@drawable/bg_3</item>
+        <item name="android:buttonStyle">@style/button_red</item>
+        <item name="android:switchStyle">@style/sw_red</item>
+        <item name="editTextStyle">@style/editTextRed</item>
+    </style>
+
+    <style name="button_red"  parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/btn_bg_red</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="sw_red" parent="@style/Widget.AppCompat.CompoundButton.Switch">
+        <item name="android:background">@drawable/btn_bg_red</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layoutDirection">ltr</item>
+        <item name="android:textOff"> </item>
+        <item name="android:textOn"> </item>
+        <item name="android:thumb">@drawable/star_25_25</item>
+        <item name="android:track">@drawable/btn_sw_track_selector</item>
+    </style>
+
+    <style name="editTextRed" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textColorHint">@color/white</item>
+        <item name="android:background">@drawable/btn_bg_red</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+    <!-- _______________________________________________________________________________________ -->
+
+    <!-- Amber Theme ____________________________________________________________________________ -->
+    <style name="ThemeAmber" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/primaryAmber</item>
+        <item name="colorPrimaryDark">@color/primaryDarkAmber</item>
+        <item name="colorAccent">@color/accentRed</item>
+        <item name="android:windowBackground">@drawable/bg_2</item>
+        <item name="android:buttonStyle">@style/button_amber</item>
+        <item name="android:switchStyle">@style/sw_amber</item>
+        <item name="editTextStyle">@style/editTextAmber</item>
+    </style>
+
+    <style name="button_amber"  parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/btn_bg_amber</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="sw_amber" parent="@style/Widget.AppCompat.CompoundButton.Switch">
+        <item name="android:background">@drawable/btn_bg_amber</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layoutDirection">ltr</item>
+        <item name="android:textOff"> </item>
+        <item name="android:textOn"> </item>
+        <item name="android:thumb">@drawable/star_25_25</item>
+        <item name="android:track">@drawable/btn_sw_track_selector</item>
+    </style>
+
+    <style name="editTextAmber" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textColorHint">@color/white</item>
+        <item name="android:background">@drawable/btn_bg_amber</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+    <!-- _______________________________________________________________________________________ -->
+
+    <!-- Lime Theme ____________________________________________________________________________ -->
+    <style name="ThemeLime" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/primaryLime</item>
+        <item name="colorPrimaryDark">@color/primaryDarkLime</item>
+        <item name="colorAccent">@color/accentLime</item>
+        <item name="android:windowBackground">@drawable/bg_1</item>
+        <item name="android:buttonStyle">@style/button_lime</item>
+        <item name="android:switchStyle">@style/sw_lime</item>
+        <item name="editTextStyle">@style/editTextLime</item>
+    </style>
+
+    <style name="button_lime"  parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/btn_bg_lime</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="sw_lime" parent="@style/Widget.AppCompat.CompoundButton.Switch">
+        <item name="android:background">@drawable/btn_bg_lime</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layoutDirection">ltr</item>
+        <item name="android:textOff"> </item>
+        <item name="android:textOn"> </item>
+        <item name="android:thumb">@drawable/star_25_25</item>
+        <item name="android:track">@drawable/btn_sw_track_selector</item>
+    </style>
+
+    <style name="editTextLime" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textColorHint">@color/white</item>
+        <item name="android:background">@drawable/btn_bg_lime</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+    <!-- _______________________________________________________________________________________ -->
+</resources>

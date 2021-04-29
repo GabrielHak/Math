@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00BCD4</color>
+    <color name="colorPrimaryDark">#0097A7</color>
+    <color name="colorAccent">#0F3D9A</color>
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="bg_dif">#E98F8F8F</color>
+    <color name="verde_manzana">#9DFF00</color>
+
+    //Toast
+    <color name="ok">#991CFF04</color>
+    <color name="nook">#99FFDD00</color>
+
+    //Buttons Style
+    <color name="but_press">#FF05FFA0</color>
+    <color name="but_stroke">#3947A1</color>
+    <color name="but_stroke_press">#FFFFFFFF</color>
+    <color name="text">#FF8127DA</color>
+    <color name="hint">#B38127DA</color>
+
+    //Background
+    <color name="grey">#7A7777</color>
+    <color name="blue">#001EDD</color>
+
+    <color name="color_selector">
+        <selector xmlns:android="http://schemas.android.com/apk/res/android">
+            <item android:state_enabled="false"
+                android:color="@color/switchTrackDisable"/>
+            <item android:state_checked="true"
+                android:color="@color/switchTrackActive" />
+            <item android:color="@color/switchTrackNormal" />
+        </selector>
+    </color>
+
+    //Math.Theme
+    <color name="primary">#FF05FFFF</color>
+    <color name="primary_dark">#1D6767</color>
+    <color name="accent">#0F3D9A</color>
+
+    //Brown Theme
+    <color name="primaryBrown">#795548</color>
+    <color name="primaryDarkBrown">#3e2723</color>
+    <color name="accentBrown">#dd2c00</color>
+
+    //Blue Theme
+    <color name="primaryBlue">#00897b</color>
+    <color name="primaryDarkBlue">#004d40</color>
+    <color name="accentBlue">#4db6ac</color>
+
+    //Red Theme
+    <color name="primaryRed">#f44336</color>
+    <color name="primaryDarkRed">#b71c1c</color>
+    <color name="accentRed">#ff5252</color>
+
+    //Amber Theme
+    <color name="primaryAmber">#ffb300</color>
+    <color name="primaryDarkAmber">#ff6f00</color>
+    <color name="accentAmber">#ffc400</color>
+
+    //Lime Theme
+    <color name="primaryLime">#eeff41</color>
+    <color name="primaryDarkLime">#cddc39</color>
+    <color name="accentLime">#c6ff00</color>
+</resources>
+
+<!-- #FF05FFE1 -->

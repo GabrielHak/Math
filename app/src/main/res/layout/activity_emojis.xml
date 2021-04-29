@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_emojis"
+    style="@android:style/ButtonBar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:onClick="button"
+    tools:context=".Emojis">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="@android:color/transparent">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/emojis_button_lentes"
+                    style="@android:style/ButtonBar"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/ic_caralentes"
+                    android:onClick="button" />
+
+                <Button
+                    android:id="@+id/emojis_button_guino"
+                    style="@android:style/ButtonBar"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/ic_guinoloco"
+                    android:onClick="button" />
+
+                <Button
+                    android:id="@+id/emojis_button_agrandado"
+                    style="@android:style/ButtonBar"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/ic_lose"
+                    android:onClick="button" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/emojis_button_risa"
+                    style="@android:style/ButtonBar"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/ic_risacerrada"
+                    android:onClick="button" />
+
+                <Button
+                    android:id="@+id/emojis_button_ojitos"
+                    style="@android:style/ButtonBar"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/ic_ojitos"
+                    android:onClick="button" />
+
+                <Button
+                    android:id="@+id/emojis_button_sonrisa"
+                    style="@android:style/ButtonBar"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/ic_sonrisa"
+                    android:onClick="button" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/emojis_button_corazon"
+                    style="@android:style/ButtonBar"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/ic_ojoscorazon"
+                    android:onClick="button" />
+
+                <Button
+                    android:id="@+id/emojis_button_tierno"
+                    style="@android:style/ButtonBar"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/ic_tierno"
+                    android:onClick="button" />
+
+                <Button
+                    android:id="@+id/emojis_button_sorpresa"
+                    style="@android:style/ButtonBar"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/ic_sorpresa"
+                    android:onClick="button" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/emojis_button_camara_1"
+                    style="@android:style/ButtonBar"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#00FFFFFF"
+                    android:contentDescription="@string/btn_1"
+                    android:onClick="shortClick"
+                    app:srcCompat="@drawable/camera" />
+
+                <ImageView
+                    android:id="@+id/emojis_button_camara_2"
+                    style="@android:style/ButtonBar"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#00FFFFFF"
+                    android:contentDescription="@string/btn_2"
+                    android:onClick="shortClick"
+                    app:srcCompat="@drawable/camera" />
+
+                <ImageView
+                    android:id="@+id/emojis_button_camara_3"
+                    style="@android:style/ButtonBar"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#00FFFFFF"
+                    android:clickable="true"
+                    android:contentDescription="@string/btn_3"
+                    android:focusable="true"
+                    android:onClick="shortClick"
+                    app:srcCompat="@drawable/camera" />
+            </TableRow>
+
+        </TableLayout>
+    </android.support.constraint.ConstraintLayout>
+</RelativeLayout>
